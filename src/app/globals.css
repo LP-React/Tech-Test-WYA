@@ -4,6 +4,38 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@import "tailwindcss";
+
+@theme {
+  /* Colores de Stitch para Tailwind 4 */
+  --color-primary: #004ac6;
+  --color-on-primary: #ffffff;
+  --color-primary-fixed: #dbe1ff;
+  --color-on-primary-fixed-variant: #003ea8;
+
+  --color-secondary-container: #d0e1fb;
+  --color-on-secondary-container: #54647a;
+
+  --color-surface: #faf8ff;
+  --color-on-surface: #131b2e;
+  --color-on-surface-variant: #434655;
+
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f3ff;
+  --color-surface-container: #eaedff;
+
+  --color-outline: #737686;
+  --color-outline-variant: #c3c6d7;
+
+  /* Tipografía y Espaciados */
+  --font-h1: "Inter", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+
+  --spacing-xl: 32px;
+  --spacing-lg: 24px;
+  --spacing-md: 16px;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
